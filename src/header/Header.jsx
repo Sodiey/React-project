@@ -1,4 +1,5 @@
 import React from "react";
+import {Link} from 'react-router-dom'
 import styled from "styled-components";
 
 import {
@@ -14,10 +15,10 @@ import {
 
 const Header = () => {
   return (
-      <MDBNavbar expand="md" size="sm" dark>
+      <MDBNavbar expand="md" size="sm" dark className="site-header">
         <MDBContainer>
           <MDBNavbarBrand>
-            <strong className="white-text">Sodiey</strong>
+            <Link to="/" className="white-text h2">Sodiey</Link>
           </MDBNavbarBrand>
           <MDBNavbarNav right>
             <MDBNavItem>

@@ -1,5 +1,6 @@
 import React, { Fragment } from "react";
 import Header from "./header/Header.jsx";
+import Home from "./home/home.component.jsx";
 import Footer from "./footer/Footer.jsx";
 import TeachingMethod from "./teaching_method/teaching-method.component.jsx";
 import Event from "./event_page/event.component.jsx";
@@ -13,13 +14,16 @@ function App() {
     <Fragment>
       <GlobalStyles />
       <Header />
-      <Route path="/teaching-method">
+      <Route exact path="/">
+        <Home />
+      </Route>
+      <Route exact path="/teaching-method">
         <TeachingMethod />
       </Route>
-      <Route path="/events">
+      <Route  exact path="/events">
         <Event />
       </Route>
-      <Route path="/landing">
+      <Route exact path="/landing">
         <Landing />
       </Route>
       <Footer className="text-white" />
