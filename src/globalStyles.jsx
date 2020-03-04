@@ -1,8 +1,9 @@
 import { createGlobalStyle } from "styled-components";
 
 const GlobalStyles = createGlobalStyle`
+
     nav {
-        background-color: var(--secondary);
+        background-color: #2685BD;
     }
 
     .carousel-item img {
@@ -32,7 +33,11 @@ const GlobalStyles = createGlobalStyle`
         left: 0;
         transform: scaleX(1);
 }
+    .transparent {
+        background-color: transparent !important;
 
+       
+    }
 `;
 
 export default GlobalStyles;

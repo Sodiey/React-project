@@ -1,17 +1,18 @@
 import React, { Fragment } from "react";
 import styled from "styled-components";
 
-
 import css from "../images/css.svg";
 import html from "../images/html.svg";
 import database from "../images/database.svg";
 
-
+const Banner = styled.div`
+  background-color: #113d57;
+`;
 
 const Home = () => {
-    return (
+  return (
     <Fragment>
-   <header id="site-header" className="bg-dark">
+      <Banner id="site-header">
         <div
           id="carouselExampleFade"
           className="carousel slide carousel-fade"
@@ -35,13 +36,13 @@ const Home = () => {
               <div className="carousel-caption d-none d-md-block mb-5 pb-5">
                 <h5
                   className="display-2 animated bounceInLeft"
-                  style={{animationDuration: "1s"}}
+                  style={{ animationDuration: "1s" }}
                 >
                   CSS
                 </h5>
                 <p
                   className="lead text-muted animated fadeInUpBig"
-                  style={{animationDuration: "1s"}}
+                  style={{ animationDuration: "1s" }}
                 >
                   Nulla vitae elit libero, a pharetra augue mollis interdum.
                 </p>
@@ -49,7 +50,8 @@ const Home = () => {
                   href="#"
                   role="button"
                   className=" btn btn-secondary animated zoomIn"
-                  style={{animationDuration:"1s"}}                >
+                  style={{ animationDuration: "1s" }}
+                >
                   LEARN MORE
                 </a>
               </div>
@@ -70,13 +72,13 @@ const Home = () => {
               <div className="carousel-caption d-none d-md-block mb-5 pb-5">
                 <h5
                   className="display-2 animated bounceInRight"
-                  style={{animationDuration: "1s"}}
+                  style={{ animationDuration: "1s" }}
                 >
                   HTML
                 </h5>
                 <p
                   className="lead text-muted animated fadeInUpBig"
-                  style={{animationDuration: "1s"}}
+                  style={{ animationDuration: "1s" }}
                 >
                   Nulla vitae elit libero, a pharetra augue mollis interdum.
                 </p>
@@ -84,7 +86,8 @@ const Home = () => {
                   href="#"
                   role="button"
                   className=" btn btn-secondary animated zoomIn"
-                  style={{animationDuration:"1s"}}                >
+                  style={{ animationDuration: "1s" }}
+                >
                   LEARN MORE
                 </a>
               </div>
@@ -105,13 +108,13 @@ const Home = () => {
               <div className="carousel-caption d-none d-md-block mb-5 pb-5">
                 <h5
                   className="display-2 animated bounceIn"
-                  style={{animationDuration: "1s"}}
+                  style={{ animationDuration: "1s" }}
                 >
                   DATABASE
                 </h5>
                 <p
                   className="lead text-muted animated fadeInUpBig"
-                  style={{animationDuration: "1s"}}
+                  style={{ animationDuration: "1s" }}
                 >
                   Nulla vitae elit libero, a pharetra augue mollis interdum.
                 </p>
@@ -119,14 +122,15 @@ const Home = () => {
                   href="#"
                   role="button"
                   className=" btn btn-secondary animated zoomIn"
-                  style={{animationDuration:"1s"}}                >
+                  style={{ animationDuration: "1s" }}
+                >
                   LEARN MORE
                 </a>
               </div>
             </div>
           </div>
         </div>
-      </header>
+      </Banner>
 
       <article id="site-modal" className="modal fade animated bounceIn">
         <div className="modal-dialog modal-lg">
@@ -141,7 +145,6 @@ const Home = () => {
         </div>
       </article>
     </Fragment>
-    
   );
 };
 

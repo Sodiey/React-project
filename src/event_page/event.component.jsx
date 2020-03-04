@@ -163,7 +163,7 @@ const Banner = () => {
         <MDBRow className="p-3 col-sm-12">
           <TextContainer lg="5" className="mt-4 p-0 text-end title-offset">
             <MainTitle>
-              Teaching <br /> Method
+              Events
             </MainTitle>
             <Span>
               <span>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;</span>
