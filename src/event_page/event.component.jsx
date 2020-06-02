@@ -14,9 +14,9 @@ import {
 
 } from "./event.styles.jsx";
 
-import bannerImg from ".././images/events/banner-img.png";
-import eventImg from ".././images/events/event-img.png";
-import eventIcon from ".././images/events/icon.png";
+import bannerImg from ".././assets/events/banner-img.png";
+import eventImg from ".././assets/events/event-img.png";
+import eventIcon from ".././assets/events/icon.png";
 
 import {
   MainTitle,

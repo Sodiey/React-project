@@ -3,7 +3,7 @@ import { MDBContainer, MDBRow, MDBCol, MDBNavLink } from "mdbreact";
 
 import { BrowserRouter as Router } from "react-router-dom";
 
-import Logo from ".././images/logo.svg";
+import Logo from ".././assets/logo.svg";
 
 import { FooterContainer } from "./footer.styles.jsx";
 

@@ -1,12 +1,12 @@
 import React, { Fragment } from "react";
 import styled from "styled-components";
 
-import css from "../images/css.svg";
-import html from "../images/html.svg";
-import database from "../images/database.svg";
+import css from "../assets/css.svg";
+import html from "../assets/html.svg";
+import database from "../assets/database.svg";
 
 const Banner = styled.div`
-  background-color: #113d57;
+  /* background-color: #113d57; */
 `;
 
 const Home = () => {
@@ -40,12 +40,12 @@ const Home = () => {
                 >
                   CSS
                 </h5>
-                <p
+                {/* <p
                   className="lead text-muted animated fadeInUpBig"
                   style={{ animationDuration: "1s" }}
                 >
                   Nulla vitae elit libero, a pharetra augue mollis interdum.
-                </p>
+                </p> */}
                 <a
                   href="#"
                   role="button"
@@ -76,12 +76,12 @@ const Home = () => {
                 >
                   HTML
                 </h5>
-                <p
+                {/* <p
                   className="lead text-muted animated fadeInUpBig"
                   style={{ animationDuration: "1s" }}
                 >
                   Nulla vitae elit libero, a pharetra augue mollis interdum.
-                </p>
+                </p> */}
                 <a
                   href="#"
                   role="button"
@@ -100,28 +100,28 @@ const Home = () => {
                 href="#"
               >
                 <img
-                  src={html}
+                  src={database}
                   className="mt-5 d-block img-fluid w-100"
                   alt="..."
                 />
               </a>
               <div className="carousel-caption d-none d-md-block mb-5 pb-5">
                 <h5
-                  className="display-2 animated bounceIn"
+                  className="display-4 animated bounceIn"
                   style={{ animationDuration: "1s" }}
                 >
                   DATABASE
                 </h5>
-                <p
+                {/* <p
                   className="lead text-muted animated fadeInUpBig"
                   style={{ animationDuration: "1s" }}
                 >
                   Nulla vitae elit libero, a pharetra augue mollis interdum.
-                </p>
+                </p> */}
                 <a
                   href="#"
                   role="button"
-                  className=" btn btn-secondary animated zoomIn"
+                  className="btn btn-secondary animated zoomIn"
                   style={{ animationDuration: "1s" }}
                 >
                   LEARN MORE

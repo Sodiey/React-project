@@ -1,10 +1,10 @@
 import React, { Fragment } from "react";
 
-import bannerImg from ".././images/banner-img.png";
-import methodImg from ".././images/method-img.png";
-import approachImg from ".././images/approach-img.png";
-import careImg from ".././images/care-img.png";
-import courseImg from ".././images/course-img.png";
+import bannerImg from ".././assets/banner-img.png";
+import methodImg from ".././assets/method-img.png";
+import approachImg from ".././assets/approach-img.png";
+import careImg from ".././assets/care-img.png";
+import courseImg from ".././assets/course-img.png";
 
 import { MainTitle, ImgContainer, Title, Text, TextContainer, ImgBanner, Span, Btn } from "./teaching-method.styles.jsx";
 

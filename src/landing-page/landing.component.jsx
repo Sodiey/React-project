@@ -24,14 +24,14 @@ import {
   Wrap
 } from "./landing.styles.jsx";
 
-import bannerImg from "../images/landing/landing-header.png";
-import reactImg from "../images/landing/react.png";
-import cypressImg from "../images/landing/cypress.png";
-import javaImg from "../images/landing/java.png";
-import awsImg from "../images/landing/aws.png";
-import laptopImg from "../images/landing/image01.png";
-import peopleImg from "../images/landing/image02.png";
-import fistImg from "../images/landing/image03.png";
+import bannerImg from "../assets/landing/landing-header.png";
+import reactImg from "../assets/landing/react.png";
+import cypressImg from "../assets/landing/cypress.png";
+import javaImg from "../assets/landing/java.png";
+import awsImg from "../assets/landing/aws.png";
+import laptopImg from "../assets/landing/image01.png";
+import peopleImg from "../assets/landing/image02.png";
+import fistImg from "../assets/landing/image03.png";
 
 const Banner = () => {
   return (
