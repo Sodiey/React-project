@@ -1,10 +1,9 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import Header from "./header/Header.jsx";
 import Footer from "./footer/Footer.jsx";
 import TeachingMethod from "./teaching_method/teaching-method.component.jsx";
 import Event from "./event_page/event.component.jsx";
 import Landing from "./landing-page/landing.component.jsx";
-import Home from "./home/home.component.jsx";
 
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 
